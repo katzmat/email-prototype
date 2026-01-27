@@ -20,17 +20,23 @@ export async function GET(request: NextRequest) {
   }
 
   try {
+    console.log('Starting OAuth callback for session:', sessionId)
+
     // Exchange code for tokens
     const tokens = await getTokensFromCode(code)
+    console.log('Got tokens, access_token present:', !!tokens.access_token)
 
     if (!tokens.access_token) {
       return NextResponse.redirect(`${baseUrl}?error=no_access_token`)
     }
 
-    // Fetch emails from Gmail (200 from Primary)
+    // Fetch emails from Gmail (200 from Inbox)
+    console.log('Fetching emails...')
     const emails = await fetchEmails(tokens.access_token, 200)
+    console.log('Fetched emails count:', emails.length)
 
     // Store session info
+    console.log('Storing session to Redis...')
     await redis.set(
       getSessionKey(sessionId),
       {
@@ -41,16 +47,19 @@ export async function GET(request: NextRequest) {
     )
 
     // Store emails
+    console.log('Storing emails to Redis...')
     await redis.set(
       getEmailsKey(sessionId),
       emails,
       { ex: SESSION_EXPIRY }
     )
+    console.log('Successfully stored emails to Redis')
 
     // Redirect to inbox with session
     return NextResponse.redirect(`${baseUrl}/inbox?session=${sessionId}`)
   } catch (err) {
     console.error('OAuth callback error:', err)
-    return NextResponse.redirect(`${baseUrl}?error=auth_failed`)
+    const errorMessage = err instanceof Error ? err.message : 'unknown_error'
+    return NextResponse.redirect(`${baseUrl}?error=${encodeURIComponent(errorMessage)}`)
   }
 }
