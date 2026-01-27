@@ -13,7 +13,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "googleapis": "^144.0.0",
-    "@vercel/kv": "^2.0.0"
+    "@upstash/redis": "^1.28.0",
+    "nanoid": "^5.0.4"
   },
   "devDependencies": {
     "@types/node": "^20.10.0",
