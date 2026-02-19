@@ -1,6 +1,7 @@
 const express = require('express');
+const config = require('../config');
 const requireAuth = require('../middleware/requireAuth');
-const { fetchInboxMessages } = require('../services/imap');
+const { fetchInboxMessages, assignThreadIds } = require('../services/imap');
 const { verifyToken } = require('../services/jwt');
 const { loadProfile, getProfileStatus, buildProfile } = require('../services/profile-agent');
 const { classifyEmails, classifyEmailsFast } = require('../services/agent-classifier');
@@ -61,9 +62,10 @@ router.get('/briefing', requireAuth, async (req, res) => {
       profileStatus = 'building';
     }
 
-    // Fetch emails
-    const maxResults = parseInt(req.query.maxResults || '50', 10);
-    const { messages } = await fetchInboxMessages(req.user, maxResults);
+    // Fetch emails and assign conversation threads
+    const maxResults = parseInt(req.query.maxResults || String(config.processor.maxEmails), 10);
+    const { messages: rawMessages } = await fetchInboxMessages(req.user, maxResults);
+    const messages = assignThreadIds(rawMessages);
 
     console.log(`[briefing] ${userEmail}: ${messages.length} emails, profileStatus=${profileStatus}, hasLifeGraph=${!!lifeGraph}`);
 
@@ -95,6 +97,7 @@ router.get('/briefing', requireAuth, async (req, res) => {
 
       const item = {
         id: msg.id,
+        threadId: msg.threadId,
         from: senderName(msg.from),
         fromFull: msg.from,
         subject: msg.subject || '(no subject)',

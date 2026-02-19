@@ -1,4 +1,5 @@
 const { ImapFlow } = require('imapflow');
+const config = require('../config');
 
 /**
  * Create an IMAP client configured for the user's provider.
@@ -10,7 +11,7 @@ function createImapClient(user) {
 
   if (isGmail) {
     return new ImapFlow({
-      host: 'imap.gmail.com',
+      host: config.imap.gmailHost,
       port: 993,
       secure: true,
       auth: { user: user.email, pass: user.credential },
@@ -20,7 +21,7 @@ function createImapClient(user) {
 
   // Yahoo — app password (basic auth)
   return new ImapFlow({
-    host: 'imap.mail.yahoo.com',
+    host: config.imap.yahooHost,
     port: 993,
     secure: true,
     auth: { user: user.email, pass: user.credential },
@@ -130,6 +131,10 @@ function normalizeImapMessage(msg, provider, email) {
     webLink = 'https://mail.yahoo.com';
   }
 
+  // Threading: use messageId and inReplyTo for grouping
+  const messageId = envelope.messageId || null;
+  const inReplyTo = envelope.inReplyTo || null;
+
   return {
     id: String(msg.uid),
     threadId: String(msg.uid),
@@ -142,6 +147,8 @@ function normalizeImapMessage(msg, provider, email) {
     isUnread: !flags.includes('\\Seen'),
     isStarred: flags.includes('\\Flagged'),
     webLink,
+    messageId,
+    inReplyTo,
   };
 }
 
@@ -167,4 +174,81 @@ function extractSnippet(source) {
   return body.substring(0, 200);
 }
 
-module.exports = { createImapClient, fetchInboxMessages };
+/**
+ * Group messages into conversation threads.
+ * Uses messageId/inReplyTo for reference-based threading,
+ * then falls back to subject normalization (strip Re:/Fwd: prefixes).
+ * Returns the same messages array with `threadId` updated to a shared value
+ * for messages in the same conversation.
+ */
+function assignThreadIds(messages) {
+  // Map messageId → threadId
+  const idToThread = new Map();
+  let nextThread = 1;
+
+  // Normalize subject for fallback grouping
+  function normalizeSubject(subj) {
+    return (subj || '')
+      .replace(/^(re|fwd|fw)\s*:\s*/gi, '')
+      .replace(/^(re|fwd|fw)\s*:\s*/gi, '') // nested
+      .trim()
+      .toLowerCase();
+  }
+
+  // Pass 1: assign by reference chain
+  for (const msg of messages) {
+    let threadId = null;
+
+    // Check if this replies to a known message
+    if (msg.inReplyTo && idToThread.has(msg.inReplyTo)) {
+      threadId = idToThread.get(msg.inReplyTo);
+    }
+
+    if (!threadId) {
+      threadId = `thread-${nextThread++}`;
+    }
+
+    if (msg.messageId) {
+      idToThread.set(msg.messageId, threadId);
+    }
+
+    msg.threadId = threadId;
+  }
+
+  // Pass 2: merge threads with matching subjects
+  const subjectToThread = new Map();
+  const threadMerge = new Map(); // old threadId → canonical threadId
+
+  for (const msg of messages) {
+    const normSubj = normalizeSubject(msg.subject);
+    if (!normSubj) continue;
+
+    const existingThread = subjectToThread.get(normSubj);
+    if (existingThread && existingThread !== msg.threadId) {
+      // Merge: map the newer threadId to the existing one
+      threadMerge.set(msg.threadId, existingThread);
+      msg.threadId = existingThread;
+    } else {
+      // Resolve through merge chain
+      let resolved = msg.threadId;
+      while (threadMerge.has(resolved)) {
+        resolved = threadMerge.get(resolved);
+      }
+      msg.threadId = resolved;
+      subjectToThread.set(normSubj, resolved);
+    }
+  }
+
+  // Final pass: resolve all merge chains
+  for (const msg of messages) {
+    let resolved = msg.threadId;
+    while (threadMerge.has(resolved)) {
+      resolved = threadMerge.get(resolved);
+    }
+    msg.threadId = resolved;
+  }
+
+  return messages;
+}
+
+module.exports = { createImapClient, fetchInboxMessages, assignThreadIds };

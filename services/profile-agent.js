@@ -86,8 +86,8 @@ async function _doBuildProfile(user) {
   const client = new Anthropic({ apiKey: config.processor.anthropicApiKey });
 
   // Step 1: Fetch emails
-  console.log('[profile-agent] Fetching 200 emails...');
-  const { messages } = await fetchInboxMessages(user, 200);
+  console.log(`[profile-agent] Fetching ${config.processor.profileMaxEmails} emails...`);
+  const { messages } = await fetchInboxMessages(user, config.processor.profileMaxEmails);
   console.log(`[profile-agent] Got ${messages.length} emails`);
 
   if (messages.length < 10) {
@@ -123,7 +123,7 @@ async function _doBuildProfile(user) {
     console.log(`[profile-agent] Analyzing chunk ${c + 1}/${chunks.length} (${chunks[c].length} messages)...`);
 
     const response = await client.messages.create({
-      model: 'claude-sonnet-4-20250514',
+      model: config.processor.profileModel,
       max_tokens: 8000,
       system: buildAnalysisPrompt(userEmail),
       messages: [{
@@ -151,7 +151,7 @@ async function _doBuildProfile(user) {
   console.log('[profile-agent] Synthesizing life graph...');
 
   const synthesisResponse = await client.messages.create({
-    model: 'claude-sonnet-4-20250514',
+    model: config.processor.profileModel,
     max_tokens: 12000,
     system: buildSynthesisPrompt(userEmail),
     messages: [{

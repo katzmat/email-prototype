@@ -11,7 +11,7 @@ const config = require('../config');
 
 // ---- Cache ----
 const cache = new Map();
-const CACHE_TTL = 30 * 60 * 1000; // 30 minutes
+const CACHE_TTL = config.processor.classifierCacheTTL;
 
 // ---- Glance sub-categories ----
 const GLANCE_CATEGORIES = [
@@ -83,7 +83,7 @@ async function classifyWithAgent(emails, lifeGraph) {
   console.log(`[agent-classifier] Classifying ${emailData.length} emails with Claude...`);
 
   const response = await client.messages.create({
-    model: 'claude-sonnet-4-20250514',
+    model: config.processor.classifierModel,
     max_tokens: 8000,
     system: systemPrompt,
     messages: [{

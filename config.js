@@ -31,5 +31,15 @@ module.exports = {
   processor: {
     anthropicApiKey: process.env.ANTHROPIC_API_KEY || null,
     cacheTTL: parseInt(process.env.PROCESSOR_CACHE_TTL || '300000', 10),
+    classifierModel: process.env.CLASSIFIER_MODEL || 'claude-sonnet-4-20250514',
+    profileModel: process.env.PROFILE_MODEL || 'claude-sonnet-4-20250514',
+    maxEmails: parseInt(process.env.MAX_EMAILS || '50', 10),
+    profileMaxEmails: parseInt(process.env.PROFILE_MAX_EMAILS || '200', 10),
+    classifierCacheTTL: parseInt(process.env.CLASSIFIER_CACHE_TTL || '1800000', 10),
+  },
+
+  imap: {
+    gmailHost: process.env.GMAIL_IMAP_HOST || 'imap.gmail.com',
+    yahooHost: process.env.YAHOO_IMAP_HOST || 'imap.mail.yahoo.com',
   },
 };

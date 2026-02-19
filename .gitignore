@@ -2,3 +2,9 @@ node_modules/
 .node/
 .env
 sessions/
+.DS_Store
+
+# User-specific data (generated per account, contains personal info)
+services/profiles/
+life-graph-data.json
+services/life-graph-data.json
