@@ -1,0 +1,221 @@
+quote_id,date_submitted,date_closed,customer,city,state,sales_rep,product_category,product_detail,quote_amount,discount_pct,final_amount,margin_pct,competitor_mentioned,days_to_quote,days_to_close,result,loss_reason
+Q-2025-1001,2025-10-01,2025-10-13,Heartland Foods,Topeka,KS,Jake Finley,Power Transmission,Martin 60B18 Sprocket Set,2162,1.7,2125,21.5,,2,12,Won,
+Q-2025-1002,2025-10-02,2025-10-10,FlexPak Solutions,Topeka,KS,Jake Finley,Bearings,SKF 7210 BECBP Angular Contact (qty 10),5570,3.5,5375,21.0,,1,8,Won,
+Q-2025-1003,2025-10-02,2025-10-19,Missouri Valley Fab,Independence,MO,Mark Alderman,Power Transmission,Gates Poly Chain GT Carbon Belt,2685,6.0,2524,21.1,,1,17,Lost,Project canceled
+Q-2025-1004,2025-10-02,2025-10-26,National Beef Packing,Dodge City,KS,Lisa Cheng,MRO/Mixed,"Quarterly MRO kit — filters, belts, lubricants",4696,4.3,4494,26.5,,0,24,Lost,Lead time
+Q-2025-1005,2025-10-03,2025-10-23,River Bluff Packaging,Lawrence,KS,Mark Alderman,MRO/Mixed,"Conveyor maintenance kit — rollers, belting, hardware",59602,4.2,57099,23.0,Grainger,6,20,Won,
+Q-2025-1006,2025-10-03,2025-10-18,Westar Energy,Topeka,KS,Jake Finley,Bearings,SKF 23120 CC/W33 Spherical (qty 6),19142,2.1,18740,23.5,,1,15,Lost,Lead time
+Q-2025-1007,2025-10-05,2025-10-16,Salina Vortex,Salina,KS,Jake Finley,Bearings,SKF 6205-2RS Deep Groove (qty 6),8657,1.3,8544,23.6,,0,11,Won,
+Q-2025-1008,2025-10-07,2025-10-13,Tyson Fresh Meats,Emporia,KS,Lisa Cheng,Power Transmission,Gates PowerGrip GT3 Belt Kit,1764,5.3,1671,24.3,,1,6,Won,
+Q-2025-1009,2025-10-07,2025-10-17,Prairie State CNC,Wichita,KS,Mark Alderman,Bearings,SealMaster NP-20T Pillow Block (qty 12),27813,9.8,25087,21.459999999999997,Applied Industrial,10,10,Won,
+Q-2025-1010,2025-10-09,2025-10-28,Jensen Manufacturing,Olathe,KS,Jake Finley,Power Transmission,Martin D80B17H Double Sprocket Set,5459,0.5,5432,29.7,,0,19,Won,
+Q-2025-1011,2025-10-09,2025-10-16,Heartland Foods,Topeka,KS,Jake Finley,Power Transmission,Gates Poly Chain GT Carbon Belt,20016,0,20016,31.2,,4,7,Won,
+Q-2025-1012,2025-10-11,2025-11-04,Tyson Fresh Meats,Emporia,KS,Lisa Cheng,Bearings,Dodge P2B-SC-104 Pillow Block (qty 10),39193,3.4,37860,27.6,Motion Industries,2,24,Lost,Project canceled
+Q-2025-1013,2025-10-12,2025-10-26,Central Iowa Machining,Des Moines,IA,Jake Finley,Power Transmission,Rexnord 1050T Grid Coupling,27386,8.0,25195,30.8,Applied Industrial,4,14,Lost,Price
+Q-2025-1014,2025-10-12,2025-11-04,Plains Equipment Group,Wichita,KS,Lisa Cheng,Valves,Bray Series 31 6in Butterfly + Actuator Package,2526,0.9,2503,29.0,,1,23,Lost,No response
+Q-2025-1015,2025-10-13,2025-10-20,River Bluff Packaging,Lawrence,KS,Mark Alderman,Power Transmission,Rexnord 1050T Grid Coupling,30158,7.2,27987,21.0,Motion Industries,9,7,Lost,Lead time
+Q-2025-1016,2025-10-16,2025-10-28,Consolidated Packaging,Lenexa,KS,Mark Alderman,Power Transmission,Gates PowerGrip GT3 Belt Kit,33147,3.4,32020,26.9,Applied Industrial,8,12,Won,
+Q-2025-1017,2025-10-16,2025-10-21,Consolidated Packaging,Lenexa,KS,Lisa Cheng,MRO/Mixed,"Pump rebuild kit — seals, bearings, couplings",2027,5.0,1926,32.0,,1,5,Won,
+Q-2025-1018,2025-10-16,2025-10-18,Sunflower Electric,Hays,KS,Lisa Cheng,Linear Motion,THK HSR20 Linear Guide Set (qty 48),1887,1.6,1857,32.4,,0,2,Won,
+Q-2025-1019,2025-10-18,2025-10-28,Prairie State CNC,Wichita,KS,Jake Finley,Bearings,Dodge P2B-SC-104 Pillow Block (qty 100),1453,7.0,1351,24.3,Motion Industries,0,10,Lost,Price
+Q-2025-1020,2025-10-18,2025-11-08,Consolidated Packaging,Lenexa,KS,Jake Finley,Bearings,Timken HM218248 Tapered Roller (qty 100),8052,1.5,7931,25.9,,2,21,Lost,Went with incumbent
+Q-2025-1021,2025-10-20,2025-11-22,Tallgrass Energy,Wichita,KS,Jake Finley,MRO/Mixed,"Conveyor maintenance kit — rollers, belting, hardware",48731,2.3,47610,29.8,Grainger,3,33,Lost,Lead time
+Q-2025-1022,2025-10-20,2025-10-24,FlexPak Solutions,Topeka,KS,Mark Alderman,MRO/Mixed,"Maintenance supply package — adhesives, tapes, PPE",4953,0,4953,22.6,,3,4,Won,
+Q-2025-1023,2025-10-21,2025-10-27,Prairie State CNC,Wichita,KS,Mark Alderman,Seals & Gaskets,John Crane Type 1 Seal Kit,7136,4.5,6815,35.4,,3,6,Won,
+Q-2025-1024,2025-10-21,2025-11-06,Continental Mills,Atchison,KS,Mark Alderman,Motors & Drives,ABB ACS580 VFD 25HP,3666,7.1,3406,18.5,Grainger,2,16,Lost,Price
+Q-2025-1025,2025-10-21,2025-11-04,Berry Global,Lawrence,KS,Mark Alderman,Bearings,SKF 22218 E Spherical Roller (qty 2),48419,0.7,48080,29.6,Applied Industrial,5,14,Won,
+Q-2025-1026,2025-10-22,2025-11-20,River City Steel,Kansas City,MO,Lisa Cheng,Bearings,SKF 7210 BECBP Angular Contact (qty 8),29828,9.5,26994,26.549999999999997,,5,29,Lost,Lead time
+Q-2025-1027,2025-10-23,2025-10-25,Textron Aviation,Wichita,KS,Lisa Cheng,Bearings,SealMaster NP-20T Pillow Block (qty 12),3251,18.0,2666,18,McMaster-Carr,0,2,Won,
+Q-2025-1028,2025-10-24,2025-11-01,Cornhusker Milling,Lincoln,NE,Jake Finley,Linear Motion,Hiwin KK60 Linear Actuator,1762,3.6,1699,28.2,,1,8,Lost,Lead time
+Q-2025-1029,2025-10-25,2025-11-14,Spirit AeroSystems,Wichita,KS,Mark Alderman,Power Transmission,Rexnord Omega E40 Coupling,1155,2.3,1128,25.7,,2,20,Lost,No response
+Q-2025-1030,2025-10-25,2025-11-01,River City Steel,Kansas City,MO,Jake Finley,Power Transmission,Martin 60B18 Sprocket Set,2652,3.6,2557,21.8,,0,7,Won,
+Q-2025-1031,2025-10-27,2025-11-16,Murphy Tractor,Kansas City,MO,Jake Finley,MRO/Mixed,"Pump rebuild kit — seals, bearings, couplings",1290,6.5,1206,22.6,Amazon Business,1,20,Lost,Price
+Q-2025-1032,2025-10-28,2025-11-20,Dairyland Cooperative,Topeka,KS,Lisa Cheng,Seals & Gaskets,SKF CR 99600 Speedi-Sleeve (qty 10),2867,3.7,2761,31.2,,1,23,Lost,Lead time
+Q-2025-1033,2025-10-28,2025-11-23,Plains Equipment Group,Wichita,KS,Mark Alderman,Bearings,NTN UCF210-200D1 Flange Unit (qty 48),3616,5.6,3414,26.0,Applied Industrial,2,26,Lost,Price
+Q-2025-1034,2025-10-30,2025-11-04,River City Steel,Kansas City,MO,Mark Alderman,Bearings,Dodge P2B-SC-104 Pillow Block (qty 36),8021,16.9,6665,26.43,Amazon Business,2,5,Won,
+Q-2025-1035,2025-11-02,2025-11-14,Tyson Fresh Meats,Emporia,KS,Jake Finley,Power Transmission,Gates Poly Chain GT Carbon Belt,7171,4.3,6863,33.9,,0,12,Lost,Lead time
+Q-2025-1036,2025-11-03,2025-11-08,Tyson Fresh Meats,Emporia,KS,Jake Finley,Valves,Apollo 88A-100 3-Piece Ball Valve (qty 4),3452,4.2,3307,23.6,Ferguson Industrial,2,5,Won,
+Q-2025-1037,2025-11-03,2025-11-11,FlexPak Solutions,Topeka,KS,Lisa Cheng,Power Transmission,Dodge Quantis ILH68 Gear Reducer,2780,13.7,2399,21.69,,0,8,Won,
+Q-2025-1038,2025-11-05,2025-11-25,Cornhusker Milling,Lincoln,NE,Mark Alderman,Seals & Gaskets,SKF CR 99600 Speedi-Sleeve (qty 10),112701,4.6,107517,30.8,Motion Industries,7,20,Won,
+Q-2025-1039,2025-11-05,2025-12-01,Jensen Manufacturing,Olathe,KS,Mark Alderman,Bearings,Timken HM218248 Tapered Roller (qty 24),8466,14.2,7264,20.439999999999998,,2,26,Lost,Lead time
+Q-2025-1040,2025-11-06,2025-11-15,Salina Vortex,Salina,KS,Lisa Cheng,Motors & Drives,Baldor EM3615T 5HP Motor,1430,7.7,1320,28.2,,1,9,Lost,Went with incumbent
+Q-2025-1041,2025-11-07,2025-12-05,Novacoil Inc,Emporia,KS,Mark Alderman,MRO/Mixed,"Conveyor maintenance kit — rollers, belting, hardware",6118,5.1,5806,27.8,,3,28,Lost,No response
+Q-2025-1042,2025-11-08,2025-12-05,Tri-State Fabrication,Joplin,MO,Jake Finley,Bearings,SKF 23120 CC/W33 Spherical (qty 24),6974,3.5,6730,29.3,,1,27,Lost,Spec change
+Q-2025-1043,2025-11-08,2025-11-17,Westar Energy,Topeka,KS,Jake Finley,Seals & Gaskets,Garlock Style 9850 Gasket Set (qty 16),3217,14.3,2757,27.61,,0,9,Won,
+Q-2025-1044,2025-11-10,2025-11-27,Hawkeye Industrial,Cedar Rapids,IA,Mark Alderman,MRO/Mixed,"Maintenance supply package — adhesives, tapes, PPE",33630,5.1,31915,23.5,,10,17,Lost,Lead time
+Q-2025-1045,2025-11-10,2025-11-25,Dairyland Cooperative,Topeka,KS,Lisa Cheng,Linear Motion,Hiwin HGH20CA Linear Block (qty 16),3752,0,3752,29.4,,1,15,Won,
+Q-2025-1046,2025-11-12,2025-12-06,Midwest Fabricators,Olathe,KS,Mark Alderman,Bearings,SealMaster NP-20T Pillow Block (qty 16),4494,1.9,4409,24.8,McMaster-Carr,1,24,Lost,Price
+Q-2025-1047,2025-11-14,2025-11-21,Murphy Tractor,Kansas City,MO,Lisa Cheng,Power Transmission,Dodge Quantis ILH68 Gear Reducer,3418,3.0,3315,24.4,,1,7,Lost,Price
+Q-2025-1048,2025-11-14,2025-11-21,Novacoil Inc,Emporia,KS,Jake Finley,Seals & Gaskets,Garlock Klozure Mill-Right Seal (qty 24),21429,0.1,21408,33.9,Applied Industrial,2,7,Won,
+Q-2025-1049,2025-11-14,2025-11-24,Hutch Manufacturing,Hutchinson,KS,Mark Alderman,Bearings,Timken SET401 Tapered Roller (qty 4),2592,5.4,2452,29.3,Motion Industries,3,10,Won,
+Q-2025-1050,2025-11-14,2025-12-16,Missouri Valley Fab,Independence,MO,Lisa Cheng,Seals & Gaskets,Parker Parbak HD O-Ring Kit,45110,1.9,44253,28.5,Motion Industries,3,32,Lost,Project canceled
+Q-2025-1051,2025-11-16,2025-11-26,Tri-State Fabrication,Joplin,MO,Lisa Cheng,Bearings,SKF 23120 CC/W33 Spherical (qty 10),5453,0,5453,31.1,McMaster-Carr,1,10,Won,
+Q-2025-1052,2025-11-19,2025-12-12,Pratt Industries,Pratt,KS,Mark Alderman,Bearings,SKF 22218 E Spherical Roller (qty 36),3086,8.9,2811,27.130000000000003,Motion Industries,2,23,Lost,Price
+Q-2025-1053,2025-11-19,2025-12-03,Prairie Ag Equipment,Salina,KS,Jake Finley,Motors & Drives,WEG 00718ET3E213T 7.5HP Motor,74267,3.8,71445,27.1,,8,14,Won,
+Q-2025-1054,2025-11-19,2025-12-08,River City Steel,Kansas City,MO,Jake Finley,Power Transmission,Gates PowerGrip GT3 Belt Kit,107067,4.7,102035,24.8,,4,19,Won,
+Q-2025-1055,2025-11-20,2025-11-30,Novacoil Inc,Emporia,KS,Lisa Cheng,Seals & Gaskets,Parker Parbak HD O-Ring Kit,12466,3.1,12080,37.8,,3,10,Won,
+Q-2025-1056,2025-11-21,2025-12-09,Midwest Fabricators,Olathe,KS,Mark Alderman,Seals & Gaskets,Parker Parbak HD O-Ring Kit,9506,6.8,8860,28.9,,3,18,Lost,No response
+Q-2025-1057,2025-11-22,2025-11-29,Cornhusker Milling,Lincoln,NE,Lisa Cheng,Linear Motion,Hiwin KK60 Linear Actuator,7057,0,7057,28.0,Motion Industries,2,7,Won,
+Q-2025-1058,2025-11-22,2025-11-27,High Plains Corp,Garden City,KS,Jake Finley,Bearings,Dodge P2B-SC-104 Pillow Block (qty 20),1746,6.8,1627,19.3,Applied Industrial,1,5,Won,
+Q-2025-1059,2025-11-24,2025-12-28,Midwest Mechanical Services,Wichita,KS,Mark Alderman,Valves,Apollo 70-100 2in Ball Valve (qty 6),72241,3.9,69424,30.7,Ferguson Industrial,8,34,Lost,Lead time
+Q-2025-1060,2025-11-25,2025-12-02,Lakeshore Assembly,Kansas City,MO,Lisa Cheng,Seals & Gaskets,Garlock Klozure Mill-Right Seal (qty 4),18647,3.4,18013,29.3,,2,7,Won,
+Q-2025-1061,2025-11-25,2025-12-09,Textron Aviation,Wichita,KS,Mark Alderman,Linear Motion,THK HSR20 Linear Guide Set (qty 100),925,6.8,862,33.3,,1,14,Won,
+Q-2025-1062,2025-11-28,2025-12-16,Tyson Fresh Meats,Emporia,KS,Mark Alderman,Power Transmission,Regal Beloit Hub City 0220-60201 Reducer,12073,14.0,10383,26.3,Motion Industries,4,18,Lost,Price
+Q-2025-1063,2025-11-28,2025-12-08,Tallgrass Energy,Wichita,KS,Jake Finley,Linear Motion,THK SHS25 Linear Guide Rail (qty 8),40581,8.0,37335,31.0,Motion Industries,3,10,Won,
+Q-2025-1064,2025-11-28,2025-12-18,River City Steel,Kansas City,MO,Mark Alderman,MRO/Mixed,"Maintenance supply package — adhesives, tapes, PPE",9799,4.9,9319,33.2,,2,20,Lost,Went with incumbent
+Q-2025-1065,2025-11-30,2025-12-07,Central Iowa Machining,Des Moines,IA,Jake Finley,Power Transmission,Rexnord 1050T Grid Coupling,9677,3.0,9387,21.4,,1,7,Won,
+Q-2025-1066,2025-12-01,2025-12-10,Murphy Tractor,Kansas City,MO,Mark Alderman,Bearings,NTN UCF210-200D1 Flange Unit (qty 16),9865,5.4,9332,22.4,,3,9,Won,
+Q-2025-1067,2025-12-01,2025-12-15,Westar Energy,Topeka,KS,Jake Finley,Bearings,Timken SET401 Tapered Roller (qty 20),8714,4.3,8339,27.2,Amazon Business,1,14,Lost,Price
+Q-2025-1068,2025-12-02,2025-12-18,Hawkeye Industrial,Cedar Rapids,IA,Mark Alderman,Seals & Gaskets,Garlock Klozure Mill-Right Seal (qty 6),7108,2.5,6930,36.4,,2,16,Lost,Price
+Q-2025-1069,2025-12-03,2025-12-21,Agri-Service Inc,Hutchinson,KS,Lisa Cheng,Power Transmission,Gates Poly Chain GT Carbon Belt,8329,3.2,8062,23.6,McMaster-Carr,2,18,Lost,Price
+Q-2025-1070,2025-12-03,2025-12-31,Midwest Mechanical Services,Wichita,KS,Jake Finley,Valves,Apollo 70-100 2in Ball Valve (qty 8),1117,6.0,1050,28.4,Ferguson Industrial,1,28,Lost,No response
+Q-2025-1071,2025-12-06,2026-01-11,Spirit AeroSystems,Wichita,KS,Lisa Cheng,Bearings,NTN 6305LLU Deep Groove (qty 6),109270,2.7,106320,19.4,Amazon Business,3,36,Lost,Price
+Q-2025-1072,2025-12-07,2025-12-17,River City Steel,Kansas City,MO,Lisa Cheng,Power Transmission,Gates PowerGrip GT3 Belt Kit,7965,12.3,6985,20,,1,10,Won,
+Q-2025-1073,2025-12-07,2025-12-19,Koch Industries,Wichita,KS,Lisa Cheng,Bearings,SealMaster NP-20T Pillow Block (qty 4),1414,0,1414,18.5,,1,12,Won,
+Q-2025-1074,2025-12-07,2025-12-27,Lakeshore Assembly,Kansas City,MO,Lisa Cheng,Seals & Gaskets,Garlock GRAPH-LOCK 3125-SS (qty 20),6620,5.7,6243,38.7,,0,20,Lost,Price
+Q-2025-1075,2025-12-07,2025-12-21,Novacoil Inc,Emporia,KS,Lisa Cheng,Bearings,SKF 6205-2RS Deep Groove (qty 48),14984,0,14984,22.6,McMaster-Carr,3,14,Won,
+Q-2025-1076,2025-12-07,2025-12-19,Hawkeye Industrial,Cedar Rapids,IA,Jake Finley,Bearings,SKF 23120 CC/W33 Spherical (qty 16),1592,1.9,1562,26.3,,2,12,Won,
+Q-2025-1077,2025-12-08,2025-12-17,Hawkeye Industrial,Cedar Rapids,IA,Jake Finley,MRO/Mixed,"Annual safety supply order — gloves, glasses, ear protection",7577,0,7577,24.0,Amazon Business,0,9,Won,
+Q-2025-1078,2025-12-08,2025-12-16,Agri-Service Inc,Hutchinson,KS,Mark Alderman,MRO/Mixed,"Annual safety supply order — gloves, glasses, ear protection",8970,9.1,8154,22,,3,8,Won,
+Q-2025-1079,2025-12-08,2025-12-23,Sunflower Steel,Hutchinson,KS,Jake Finley,Power Transmission,Regal Beloit Hub City 0220-60201 Reducer,4360,2.4,4255,34.2,,2,15,Won,
+Q-2025-1080,2025-12-09,2025-12-25,Pratt Industries,Pratt,KS,Jake Finley,Power Transmission,Gates PowerGrip GT3 Belt Kit,49356,6.8,46000,30.4,Applied Industrial,2,16,Won,
+Q-2025-1081,2025-12-09,2025-12-21,High Plains Corp,Garden City,KS,Jake Finley,MRO/Mixed,"Conveyor maintenance kit — rollers, belting, hardware",1692,5.7,1596,29.5,,2,12,Won,
+Q-2025-1082,2025-12-11,2025-12-25,Hutch Manufacturing,Hutchinson,KS,Lisa Cheng,Valves,Bray Series 21 Butterfly + Actuator,1633,1.2,1613,24.8,Ferguson Industrial,2,14,Lost,Went with incumbent
+Q-2025-1083,2025-12-12,2025-12-24,Lakeshore Assembly,Kansas City,MO,Lisa Cheng,Seals & Gaskets,Garlock GRAPH-LOCK 3125-SS (qty 12),7526,13.8,6487,26,Motion Industries,2,12,Won,
+Q-2025-1084,2025-12-12,2025-12-16,Prairie Ag Equipment,Salina,KS,Lisa Cheng,Valves,Bray Series 21 Butterfly + Actuator,2759,4.2,2643,27.1,,1,4,Won,
+Q-2025-1085,2025-12-12,2025-12-22,Murphy Tractor,Kansas City,MO,Mark Alderman,Linear Motion,THK HSR20 Linear Guide Set (qty 8),8855,13.6,7651,25,,2,10,Won,
+Q-2025-1086,2025-12-12,2025-12-25,Midwest Fabricators,Olathe,KS,Lisa Cheng,Power Transmission,Rexnord Omega E40 Coupling,4541,4.2,4350,29.3,,1,13,Won,
+Q-2025-1087,2025-12-13,2025-12-23,Koch Industries,Wichita,KS,Mark Alderman,Power Transmission,Rexnord Omega E40 Coupling,6742,0,6742,28.3,Motion Industries,3,10,Won,
+Q-2025-1088,2025-12-14,2025-12-20,Agri-Service Inc,Hutchinson,KS,Jake Finley,MRO/Mixed,"Maintenance supply package — adhesives, tapes, PPE",9730,2.8,9458,24.0,,3,6,Won,
+Q-2025-1089,2025-12-15,2026-01-04,Midwest Grain Terminal,Salina,KS,Jake Finley,Valves,Nibco T-113-K Gate Valve (qty 2),35341,0,35341,29.6,Ferguson Industrial,5,20,Lost,Price
+Q-2025-1090,2025-12-16,2026-01-10,Plains Equipment Group,Wichita,KS,Mark Alderman,Motors & Drives,ABB ACS355 VFD 15HP,4204,7.2,3901,21.8,,2,25,Lost,Went with incumbent
+Q-2025-1091,2025-12-16,2025-12-24,Lakeshore Assembly,Kansas City,MO,Jake Finley,MRO/Mixed,"Conveyor maintenance kit — rollers, belting, hardware",3167,3.7,3050,28.7,,1,8,Lost,Went with incumbent
+Q-2025-1092,2025-12-16,2025-12-26,Agri-Service Inc,Hutchinson,KS,Jake Finley,Seals & Gaskets,Parker Parbak HD O-Ring Kit,6434,1.7,6325,39.2,,1,10,Won,
+Q-2025-1093,2025-12-16,2025-12-28,Midwest Grain Terminal,Salina,KS,Jake Finley,Motors & Drives,ABB ACS580 VFD 25HP,3610,4.2,3458,29.8,,1,12,Lost,Price
+Q-2025-1094,2025-12-16,2025-12-28,Midwest Mechanical Services,Wichita,KS,Jake Finley,Bearings,NTN 6305LLU Deep Groove (qty 4),9021,2.0,8841,27.3,,1,12,Won,
+Q-2025-1095,2025-12-18,2025-12-29,Cornhusker Milling,Lincoln,NE,Jake Finley,Power Transmission,Dodge Quantis ILH68 Gear Reducer,3982,5.9,3747,29.5,,1,11,Won,
+Q-2025-1096,2025-12-20,2026-01-11,Textron Aviation,Wichita,KS,Jake Finley,Bearings,SealMaster NP-20T Pillow Block (qty 2),24170,4.2,23155,25.6,,1,22,Lost,No response
+Q-2025-1097,2025-12-21,2025-12-29,Central Iowa Machining,Des Moines,IA,Lisa Cheng,Motors & Drives,ABB ACS355 VFD 15HP,16325,5.1,15492,19.8,,4,8,Lost,Price
+Q-2025-1098,2025-12-21,2026-01-02,Central Iowa Machining,Des Moines,IA,Mark Alderman,Linear Motion,Hiwin KK60 Linear Actuator,9432,8.9,8593,33.33,,1,12,Won,
+Q-2025-1099,2025-12-21,2026-01-30,Dairyland Cooperative,Topeka,KS,Mark Alderman,Bearings,SKF 7210 BECBP Angular Contact (qty 24),108292,5.8,102011,20.6,,9,40,Lost,Price
+Q-2025-1100,2025-12-22,2026-01-24,High Plains Corp,Garden City,KS,Jake Finley,MRO/Mixed,"Quarterly MRO kit — filters, belts, lubricants",1438,4.3,1376,22.7,Amazon Business,1,33,Lost,Price
+Q-2025-1101,2025-12-25,2026-01-07,Pratt Industries,Pratt,KS,Jake Finley,Motors & Drives,Baldor EM3615T 5HP Motor,35165,4.1,33723,25.1,,6,13,Lost,Went with incumbent
+Q-2025-1102,2025-12-25,2026-01-21,Jensen Manufacturing,Olathe,KS,Jake Finley,Power Transmission,Regal Beloit Hub City 0220-60201 Reducer,2234,1.0,2212,27.2,McMaster-Carr,2,27,Lost,Price
+Q-2025-1103,2025-12-25,2026-01-02,Great Plains Manufacturing,Salina,KS,Jake Finley,MRO/Mixed,"Maintenance supply package — adhesives, tapes, PPE",9046,3.0,8775,33.3,,2,8,Won,
+Q-2025-1104,2025-12-26,2026-01-07,Tri-State Fabrication,Joplin,MO,Lisa Cheng,Seals & Gaskets,Parker O-Ring Kit 4-001 (qty 6 kits),12875,2.0,12618,32.0,,1,12,Lost,Lead time
+Q-2025-1105,2025-12-27,2026-01-20,Lakeshore Assembly,Kansas City,MO,Jake Finley,Bearings,SKF 22218 E Spherical Roller (qty 8),112616,7.2,104508,27.6,Applied Industrial,5,24,Won,
+Q-2025-1106,2025-12-27,2026-01-13,Novacoil Inc,Emporia,KS,Lisa Cheng,Valves,Bray Series 31 6in Butterfly + Actuator Package,4564,3.7,4395,35.9,Ferguson Industrial,3,17,Won,
+Q-2025-1107,2025-12-28,2026-01-05,Murphy Tractor,Kansas City,MO,Lisa Cheng,Power Transmission,Martin 60B18 Sprocket Set,9189,14.6,7847,23.42,,3,8,Won,
+Q-2025-1108,2025-12-28,2026-01-09,Midwest Fabricators,Olathe,KS,Jake Finley,Power Transmission,Regal Beloit Hub City 0220-60201 Reducer,15580,2.0,15268,34.5,,2,12,Lost,Went with incumbent
+Q-2025-1109,2025-12-29,2026-01-03,Dairyland Cooperative,Topeka,KS,Mark Alderman,Power Transmission,Regal Beloit Hub City 0220-60201 Reducer,2117,4.1,2030,32.2,,3,5,Won,
+Q-2025-1110,2025-12-31,2026-02-05,Westar Energy,Topeka,KS,Lisa Cheng,MRO/Mixed,"Pump rebuild kit — seals, bearings, couplings",63124,6.2,59210,33.1,,4,36,Lost,Spec change
+Q-2026-1111,2026-01-01,2026-01-26,Lakeshore Assembly,Kansas City,MO,Mark Alderman,Seals & Gaskets,Garlock GRAPH-LOCK 3125-SS (qty 8),8685,2.5,8468,34.0,,3,25,Lost,Lead time
+Q-2026-1112,2026-01-01,2026-01-11,Central Iowa Machining,Des Moines,IA,Lisa Cheng,Valves,Nibco T-113-K Gate Valve (qty 16),5696,5.4,5388,24.3,,1,10,Lost,Spec change
+Q-2026-1113,2026-01-02,2026-01-28,Heartland Foods,Topeka,KS,Lisa Cheng,Bearings,NTN UCF210-200D1 Flange Unit (qty 12),9096,4.2,8714,29.3,,1,26,Lost,Price
+Q-2026-1114,2026-01-02,2026-02-12,FlexPak Solutions,Topeka,KS,Lisa Cheng,Power Transmission,Regal Beloit Hub City 0220-60201 Reducer,101851,2.6,99203,34.6,,4,41,Lost,Went with incumbent
+Q-2026-1115,2026-01-03,2026-01-26,Missouri Valley Fab,Independence,MO,Jake Finley,Bearings,NTN 6305LLU Deep Groove (qty 16),49289,3.5,47564,23.8,Applied Industrial,5,23,Won,
+Q-2026-1116,2026-01-05,2026-01-18,High Plains Corp,Garden City,KS,Mark Alderman,Motors & Drives,Regal Beloit Marathon 184TTFS6526 Motor,9417,9.4,8532,19.88,Grainger,3,13,Won,
+Q-2026-1117,2026-01-06,2026-01-31,Pratt Industries,Pratt,KS,Lisa Cheng,Power Transmission,Rexnord BS187 Pillow Block + Coupling Package,894,8.7,816,28.69,,0,25,Lost,Price
+Q-2026-1118,2026-01-06,2026-01-12,Tyson Fresh Meats,Emporia,KS,Lisa Cheng,MRO/Mixed,"Pump rebuild kit — seals, bearings, couplings",7465,4.3,7144,33.0,,2,6,Won,
+Q-2026-1119,2026-01-06,2026-01-08,Novacoil Inc,Emporia,KS,Lisa Cheng,MRO/Mixed,"Pump rebuild kit — seals, bearings, couplings",2715,0,2715,30.5,,1,2,Won,
+Q-2026-1120,2026-01-06,2026-01-20,Prairie Ag Equipment,Salina,KS,Mark Alderman,Power Transmission,Gates PowerGrip GT3 Belt Kit,2435,3.4,2352,33.1,,2,14,Won,
+Q-2026-1121,2026-01-06,2026-01-16,Consolidated Packaging,Lenexa,KS,Jake Finley,Motors & Drives,Baldor EJMM3615T 5HP C-Face,1700,1.1,1681,20.4,,1,10,Won,
+Q-2026-1122,2026-01-08,2026-01-20,Great Lakes Stamping,Cleveland,OH,Mark Alderman,Power Transmission,Rexnord Omega E40 Coupling,7741,8.7,7068,28.29,,2,12,Won,
+Q-2026-1123,2026-01-08,2026-01-20,Cornhusker Milling,Lincoln,NE,Jake Finley,Bearings,NTN 6305LLU Deep Groove (qty 36),8684,3.9,8345,20.7,,1,12,Lost,Project canceled
+Q-2026-1124,2026-01-09,2026-01-24,Lakeshore Assembly,Kansas City,MO,Tyler Novak,Motors & Drives,ABB ACS355 VFD 15HP,3555,3.5,3431,24.8,,3,15,Lost,Price
+Q-2026-1125,2026-01-10,2026-01-22,Salina Vortex,Salina,KS,Tyler Novak,Bearings,SKF 7210 BECBP Angular Contact (qty 4),6989,10.1,6283,23.369999999999997,Amazon Business,3,12,Lost,Price
+Q-2026-1126,2026-01-10,2026-01-13,Koch Industries,Wichita,KS,Jake Finley,Seals & Gaskets,John Crane Type 1 Seal Kit,5401,4.8,5142,38.6,,1,3,Lost,Price
+Q-2026-1127,2026-01-10,2026-02-16,Textron Aviation,Wichita,KS,Jake Finley,MRO/Mixed,"Annual safety supply order — gloves, glasses, ear protection",109600,6.1,102914,35.6,Grainger,6,37,Lost,Price
+Q-2026-1128,2026-01-10,2026-01-16,Textron Aviation,Wichita,KS,Tyler Novak,Seals & Gaskets,John Crane Type 1 Seal Kit,16236,7.9,14953,31.0,,2,6,Lost,Went with incumbent
+Q-2026-1129,2026-01-11,2026-01-24,Pratt Industries,Pratt,KS,Jake Finley,Seals & Gaskets,Parker O-Ring Kit 4-001 (qty 10 kits),7273,9.9,6553,26,,0,13,Won,
+Q-2026-1130,2026-01-11,2026-01-21,Lakeshore Assembly,Kansas City,MO,Mark Alderman,Seals & Gaskets,John Crane Type 1 Seal Kit,9770,1.5,9623,28.8,,1,10,Won,
+Q-2026-1131,2026-01-12,2026-01-21,Murphy Tractor,Kansas City,MO,Lisa Cheng,MRO/Mixed,"Annual safety supply order — gloves, glasses, ear protection",35190,0,35190,27.1,Grainger,5,9,Lost,Lead time
+Q-2026-1132,2026-01-13,2026-01-26,Central Iowa Machining,Des Moines,IA,Jake Finley,Bearings,Timken SET401 Tapered Roller (qty 16),4835,6.5,4521,23.4,,2,13,Lost,Lead time
+Q-2026-1133,2026-01-15,2026-01-25,High Plains Corp,Garden City,KS,Jake Finley,Bearings,SKF 7210 BECBP Angular Contact (qty 4),7997,9.8,7213,18.66,,2,10,Lost,No response
+Q-2026-1134,2026-01-15,2026-01-30,River Bluff Packaging,Lawrence,KS,Lisa Cheng,Valves,Apollo 88A-100 3-Piece Ball Valve (qty 48),21272,0.1,21251,35.6,,1,15,Won,
+Q-2026-1135,2026-01-15,2026-02-17,Central Iowa Machining,Des Moines,IA,Tyler Novak,Bearings,NTN UCF210-200D1 Flange Unit (qty 36),38008,8.9,34625,27.53,Motion Industries,7,33,Lost,Lead time
+Q-2026-1136,2026-01-15,2026-01-22,Lakeshore Assembly,Kansas City,MO,Lisa Cheng,MRO/Mixed,"Annual safety supply order — gloves, glasses, ear protection",23139,1.2,22861,34.2,Fastenal,1,7,Won,
+Q-2026-1137,2026-01-15,2026-02-01,Midwest Fabricators,Olathe,KS,Lisa Cheng,Power Transmission,Rexnord Omega E40 Coupling,1052,4.1,1009,23.4,,1,17,Lost,No response
+Q-2026-1138,2026-01-16,2026-02-08,River City Steel,Kansas City,MO,Jake Finley,Seals & Gaskets,Parker O-Ring Kit 4-001 (qty 4 kits),10106,6.7,9429,29.9,,2,23,Lost,No response
+Q-2026-1139,2026-01-16,2026-02-04,Hawkeye Industrial,Cedar Rapids,IA,Mark Alderman,Valves,Bray Series 21 Butterfly + Actuator,52560,6.3,49249,22.1,Ferguson Industrial,10,19,Lost,No response
+Q-2026-1140,2026-01-17,2026-02-10,Consolidated Packaging,Lenexa,KS,Lisa Cheng,Motors & Drives,ABB ACS355 VFD 15HP,20844,5.4,19718,29.6,,4,24,Lost,Lead time
+Q-2026-1141,2026-01-17,2026-02-12,River Bluff Packaging,Lawrence,KS,Jake Finley,Valves,Bray Series 21 Butterfly + Actuator,8805,5.7,8303,28.4,,2,26,Lost,Spec change
+Q-2026-1142,2026-01-18,2026-02-08,Textron Aviation,Wichita,KS,Mark Alderman,Bearings,SKF 6205-2RS Deep Groove (qty 12),69536,8.0,63973,20.1,Applied Industrial,8,21,Lost,Lead time
+Q-2026-1143,2026-01-18,2026-02-12,Westar Energy,Topeka,KS,Lisa Cheng,MRO/Mixed,"Conveyor maintenance kit — rollers, belting, hardware",20052,0.6,19932,31.2,,1,25,Lost,No response
+Q-2026-1144,2026-01-18,2026-01-26,Dairyland Cooperative,Topeka,KS,Mark Alderman,Motors & Drives,ABB ACS355 VFD 15HP,1743,6.8,1624,23.5,,2,8,Won,
+Q-2026-1145,2026-01-18,2026-02-05,Consolidated Packaging,Lenexa,KS,Mark Alderman,Bearings,Timken HM218248 Tapered Roller (qty 10),1490,10.1,1340,18.97,Motion Industries,2,18,Lost,Price
+Q-2026-1146,2026-01-19,2026-01-30,Agri-Service Inc,Hutchinson,KS,Jake Finley,Motors & Drives,WEG 00718ET3E213T 7.5HP Motor,3371,3.7,3246,24.1,,1,11,Lost,Lead time
+Q-2026-1147,2026-01-20,2026-01-30,National Beef Packing,Dodge City,KS,Lisa Cheng,Seals & Gaskets,John Crane Type 1 Seal Kit,2811,2.9,2729,29.4,,1,10,Lost,Price
+Q-2026-1148,2026-01-20,2026-02-15,Westar Energy,Topeka,KS,Lisa Cheng,Bearings,NTN 6305LLU Deep Groove (qty 12),9292,6.9,8651,21.1,,2,26,Lost,Lead time
+Q-2026-1149,2026-01-21,2026-01-25,Textron Aviation,Wichita,KS,Jake Finley,Bearings,Timken HM218248 Tapered Roller (qty 2),3419,3.2,3310,20.1,McMaster-Carr,1,4,Won,
+Q-2026-1150,2026-01-21,2026-01-25,River City Steel,Kansas City,MO,Jake Finley,MRO/Mixed,"Annual safety supply order — gloves, glasses, ear protection",1980,6.3,1855,35.6,,0,4,Won,
+Q-2026-1151,2026-01-22,2026-01-26,Midwest Mechanical Services,Wichita,KS,Tyler Novak,MRO/Mixed,"Conveyor maintenance kit — rollers, belting, hardware",4275,2.9,4151,33.9,Fastenal,1,4,Won,
+Q-2026-1152,2026-01-23,2026-02-02,Lakeshore Assembly,Kansas City,MO,Lisa Cheng,Bearings,Dodge P2B-SC-104 Pillow Block (qty 8),2793,7.7,2578,25.4,,1,10,Lost,Price
+Q-2026-1153,2026-01-24,2026-02-21,Heartland Foods,Topeka,KS,Jake Finley,Linear Motion,Hiwin KK60 Linear Actuator,1761,5.4,1666,31.5,,2,28,Lost,Went with incumbent
+Q-2026-1154,2026-01-24,2026-02-04,Sunflower Steel,Hutchinson,KS,Jake Finley,Linear Motion,THK BNK1210 Ball Screw Assembly,3410,6.2,3199,26.8,Motion Industries,0,11,Won,
+Q-2026-1155,2026-01-25,2026-02-11,Prairie State CNC,Wichita,KS,Jake Finley,Power Transmission,Gates Poly Chain GT Carbon Belt,9577,6.3,8974,25.9,,0,17,Lost,Price
+Q-2026-1156,2026-01-25,2026-02-05,National Beef Packing,Dodge City,KS,Mark Alderman,Seals & Gaskets,Parker Parbak HD O-Ring Kit,8958,5.6,8456,31.8,Motion Industries,2,11,Lost,Lead time
+Q-2026-1157,2026-01-26,2026-02-10,Tyson Fresh Meats,Emporia,KS,Tyler Novak,Bearings,SKF 7210 BECBP Angular Contact (qty 12),1893,4.7,1804,18.9,Motion Industries,1,15,Lost,No response
+Q-2026-1158,2026-01-28,2026-03-11,Missouri Valley Fab,Independence,MO,Lisa Cheng,Motors & Drives,WEG 00718ET3E213T 7.5HP Motor,115597,0.3,115250,28.7,,4,42,Lost,Price
+Q-2026-1159,2026-01-30,2026-02-12,Textron Aviation,Wichita,KS,Mark Alderman,Bearings,Timken SET401 Tapered Roller (qty 6),4034,3.3,3901,30.6,,3,13,Lost,No response
+Q-2026-1160,2026-01-31,2026-02-11,Tallgrass Energy,Wichita,KS,Mark Alderman,Valves,Apollo 88A-100 3-Piece Ball Valve (qty 48),11208,4.5,10704,29.2,Ferguson Industrial,4,11,Won,
+Q-2026-1161,2026-01-31,2026-02-09,Heartland Foods,Topeka,KS,Mark Alderman,Bearings,SealMaster NP-20T Pillow Block (qty 10),2729,5.8,2571,26.0,,2,9,Won,
+Q-2026-1162,2026-01-31,2026-02-19,Missouri Valley Fab,Independence,MO,Mark Alderman,MRO/Mixed,"Quarterly MRO kit — filters, belts, lubricants",88200,0.7,87583,32.9,Grainger,5,19,Lost,Lead time
+Q-2026-1163,2026-01-31,2026-02-25,Hutch Manufacturing,Hutchinson,KS,Mark Alderman,Power Transmission,Regal Beloit Hub City 0220-60201 Reducer,41462,5.9,39016,29.0,Applied Industrial,6,25,Lost,Lead time
+Q-2026-1164,2026-02-02,2026-02-10,Midwest Fabricators,Olathe,KS,Jake Finley,Valves,Bray Series 21 Butterfly + Actuator,3063,2.1,2999,27.7,,1,8,Won,
+Q-2026-1165,2026-02-03,2026-02-12,Consolidated Packaging,Lenexa,KS,Lisa Cheng,MRO/Mixed,"Conveyor maintenance kit — rollers, belting, hardware",3835,0.9,3800,35.7,,0,9,Won,
+Q-2026-1166,2026-02-03,2026-02-10,Lakeshore Assembly,Kansas City,MO,Lisa Cheng,Power Transmission,Gates PowerGrip GT3 Belt Kit,35554,2.3,34736,28.2,Applied Industrial,3,7,Won,
+Q-2026-1167,2026-02-05,2026-02-10,Salina Vortex,Salina,KS,Lisa Cheng,Bearings,SKF 23120 CC/W33 Spherical (qty 24),6981,0.6,6939,26.0,Amazon Business,1,5,Won,
+Q-2026-1168,2026-02-06,2026-02-25,Central Iowa Machining,Des Moines,IA,Jake Finley,Seals & Gaskets,Parker Parbak HD O-Ring Kit,24888,1.7,24465,39.5,Motion Industries,3,19,Lost,No response
+Q-2026-1169,2026-02-07,2026-02-24,Sunflower Electric,Hays,KS,Mark Alderman,MRO/Mixed,"Maintenance supply package — adhesives, tapes, PPE",6303,3.7,6070,25.5,,2,17,Lost,Lead time
+Q-2026-1170,2026-02-07,2026-02-25,Tallgrass Energy,Wichita,KS,Mark Alderman,Power Transmission,Gates PowerGrip GT3 Belt Kit,8169,6.0,7679,31.8,,2,18,Lost,Went with incumbent
+Q-2026-1171,2026-02-08,2026-02-14,Salina Vortex,Salina,KS,Mark Alderman,Power Transmission,Gates PowerGrip GT3 Belt Kit,2554,5.2,2421,22.3,,3,6,Won,
+Q-2026-1172,2026-02-08,2026-02-17,Plains Equipment Group,Wichita,KS,Jake Finley,MRO/Mixed,"Conveyor maintenance kit — rollers, belting, hardware",13878,4.3,13281,27.2,,2,9,Lost,Price
+Q-2026-1173,2026-02-08,2026-02-18,Koch Industries,Wichita,KS,Jake Finley,Linear Motion,Hiwin KK60 Linear Actuator,1176,2.7,1144,34.4,,0,10,Won,
+Q-2026-1174,2026-02-10,2026-03-02,Salina Vortex,Salina,KS,Mark Alderman,Bearings,SKF 7210 BECBP Angular Contact (qty 4),972,6.3,911,19.0,,1,20,Lost,Project canceled
+Q-2026-1175,2026-02-11,2026-02-16,Sunflower Electric,Hays,KS,Mark Alderman,Valves,Bray Series 21 Butterfly + Actuator,3846,5.5,3634,32.8,Ferguson Industrial,1,5,Won,
+Q-2026-1176,2026-02-12,2026-02-25,Koch Industries,Wichita,KS,Jake Finley,Motors & Drives,Baldor EM3615T 5HP Motor,5631,4.1,5400,20.0,Grainger,0,13,Won,
+Q-2026-1177,2026-02-13,2026-02-20,Hawkeye Industrial,Cedar Rapids,IA,Tyler Novak,Seals & Gaskets,Garlock Klozure Mill-Right Seal (qty 4),5916,11.1,5259,26.970000000000002,Applied Industrial,2,7,Lost,Price
+Q-2026-1178,2026-02-13,2026-03-03,Midwest Grain Terminal,Salina,KS,Jake Finley,Valves,Bray Series 31 6in Butterfly + Actuator Package,1648,6.0,1549,23.5,,2,18,Lost,Went with incumbent
+Q-2026-1179,2026-02-16,2026-02-27,Prairie Ag Equipment,Salina,KS,Lisa Cheng,MRO/Mixed,"Pump rebuild kit — seals, bearings, couplings",32745,6.0,30780,22.8,Grainger,4,11,Won,
+Q-2026-1180,2026-02-16,2026-03-03,River Bluff Packaging,Lawrence,KS,Lisa Cheng,Linear Motion,Hiwin HGH20CA Linear Block (qty 20),3558,1.1,3519,26.7,Motion Industries,2,15,Lost,Lead time
+Q-2026-1181,2026-02-16,2026-02-28,Tyson Fresh Meats,Emporia,KS,Tyler Novak,MRO/Mixed,"Pump rebuild kit — seals, bearings, couplings",4667,1.7,4588,35.7,,1,12,Won,
+Q-2026-1182,2026-02-17,2026-03-08,Plains Equipment Group,Wichita,KS,Lisa Cheng,Linear Motion,THK HSR20 Linear Guide Set (qty 2),7235,3.3,6996,29.4,Motion Industries,1,19,Won,
+Q-2026-1183,2026-02-17,2026-03-07,River Bluff Packaging,Lawrence,KS,Mark Alderman,Power Transmission,Dodge TXT415T Gear Reducer,4573,3.9,4395,21.7,,1,18,Won,
+Q-2026-1184,2026-02-17,2026-03-18,Pratt Industries,Pratt,KS,Lisa Cheng,Valves,Apollo 88A-100 3-Piece Ball Valve (qty 16),59567,4.1,57125,22.6,Ferguson Industrial,4,29,Lost,Went with incumbent
+Q-2026-1185,2026-02-18,2026-02-24,Jensen Manufacturing,Olathe,KS,Mark Alderman,Seals & Gaskets,SKF CR 99600 Speedi-Sleeve (qty 10),3805,4.7,3626,32.2,,1,6,Lost,Went with incumbent
+Q-2026-1186,2026-02-19,2026-02-24,Continental Mills,Atchison,KS,Lisa Cheng,Bearings,Timken SET401 Tapered Roller (qty 48),6871,4.4,6569,22.4,,1,5,Won,
+Q-2026-1187,2026-02-19,2026-02-28,Cornhusker Milling,Lincoln,NE,Jake Finley,Power Transmission,Gates Poly Chain GT Carbon Belt,9504,17.9,7803,20.53,,1,9,Won,
+Q-2026-1188,2026-02-20,2026-03-02,Textron Aviation,Wichita,KS,Lisa Cheng,Seals & Gaskets,Parker O-Ring Kit 4-001 (qty 8 kits),13697,1.1,13546,30.2,,2,10,Lost,Price
+Q-2026-1189,2026-02-20,2026-03-11,Central Iowa Machining,Des Moines,IA,Mark Alderman,Power Transmission,Rexnord Omega E40 Coupling,4553,5.8,4289,28.8,,2,19,Lost,Lead time
+Q-2026-1190,2026-02-21,2026-03-05,Tri-State Fabrication,Joplin,MO,Lisa Cheng,Bearings,SealMaster NP-20T Pillow Block (qty 4),9807,9.2,8905,18.54,Motion Industries,1,12,Won,
+Q-2026-1191,2026-02-21,2026-03-15,Textron Aviation,Wichita,KS,Mark Alderman,Power Transmission,Martin 60B18 Sprocket Set,20317,9.9,18306,20,,5,22,Lost,Lead time
+Q-2026-1192,2026-02-23,2026-03-09,Lakeshore Assembly,Kansas City,MO,Lisa Cheng,Linear Motion,Hiwin KK60 Linear Actuator,1207,1.9,1184,30.3,,1,14,Lost,Price
+Q-2026-1193,2026-02-24,2026-03-25,Sunflower Electric,Hays,KS,Lisa Cheng,Power Transmission,Martin D80B17H Double Sprocket Set,95237,2.5,92856,24.3,,7,29,Lost,Price
+Q-2026-1194,2026-02-25,2026-03-14,Consolidated Packaging,Lenexa,KS,Lisa Cheng,Bearings,SKF 7210 BECBP Angular Contact (qty 2),4624,3.8,4448,31.2,,3,17,Lost,Price
+Q-2026-1195,2026-02-28,2026-03-02,Continental Mills,Atchison,KS,Tyler Novak,MRO/Mixed,"Quarterly MRO kit — filters, belts, lubricants",7207,3.7,6940,28.2,Amazon Business,1,2,Won,
+Q-2026-1196,2026-02-28,2026-03-27,Jensen Manufacturing,Olathe,KS,Mark Alderman,Seals & Gaskets,Parker Parbak HD O-Ring Kit,39632,5.3,37532,33.6,,6,27,Lost,Price
+Q-2026-1197,2026-02-28,2026-03-12,Midwest Mechanical Services,Wichita,KS,Jake Finley,Linear Motion,Hiwin HGH20CA Linear Block (qty 4),2008,3.0,1948,35.8,,2,12,Lost,Lead time
+Q-2026-1198,2026-03-01,2026-03-22,Berry Global,Lawrence,KS,Mark Alderman,Bearings,Dodge P2B-SC-104 Pillow Block (qty 16),6111,7.0,5683,22.6,,1,21,Lost,Project canceled
+Q-2026-1199,2026-03-02,2026-03-18,Tri-State Fabrication,Joplin,MO,Lisa Cheng,Power Transmission,Dodge Quantis ILH68 Gear Reducer,3190,6.7,2976,28.4,,0,16,Lost,Went with incumbent
+Q-2026-1200,2026-03-04,2026-03-28,Prairie Ag Equipment,Salina,KS,Mark Alderman,Bearings,SKF 7210 BECBP Angular Contact (qty 12),1647,0.7,1635,19.2,Applied Industrial,3,24,Lost,Went with incumbent
+Q-2026-1201,2026-03-04,2026-03-09,Westar Energy,Topeka,KS,Tyler Novak,Bearings,SKF 6205-2RS Deep Groove (qty 100),1640,4.6,1565,24.0,,1,5,Won,
+Q-2026-1202,2026-03-05,2026-03-28,Plains Equipment Group,Wichita,KS,Lisa Cheng,Seals & Gaskets,Garlock Style 9850 Gasket Set (qty 12),4586,10.2,4118,30.74,,0,23,Lost,Price
+Q-2026-1203,2026-03-07,2026-04-08,Murphy Tractor,Kansas City,MO,Tyler Novak,Bearings,SKF 22218 E Spherical Roller (qty 8),57518,8.9,52399,26.53,,10,32,Lost,Price
+Q-2026-1204,2026-03-07,2026-04-04,Spirit AeroSystems,Wichita,KS,Jake Finley,Bearings,SKF 7210 BECBP Angular Contact (qty 36),4041,8.6,3693,20.020000000000003,,1,28,Lost,Price
+Q-2026-1205,2026-03-07,2026-03-10,Agri-Service Inc,Hutchinson,KS,Jake Finley,Bearings,SKF 22218 E Spherical Roller (qty 6),1286,3.4,1242,20.4,,0,3,Lost,Lead time
+Q-2026-1206,2026-03-07,2026-03-09,Prairie Ag Equipment,Salina,KS,Tyler Novak,Motors & Drives,Regal Beloit Marathon 184TTFS6526 Motor,6351,4.0,6097,29.7,,1,2,Won,
+Q-2026-1207,2026-03-08,2026-03-20,Prairie State CNC,Wichita,KS,Lisa Cheng,Power Transmission,Dodge Quantis ILH68 Gear Reducer,6902,16.8,5742,28.46,,0,12,Won,
+Q-2026-1208,2026-03-10,2026-04-04,Dairyland Cooperative,Topeka,KS,Mark Alderman,Seals & Gaskets,Garlock Style 9850 Gasket Set (qty 2),6381,8.0,5871,38.6,,2,25,Lost,Project canceled
+Q-2026-1209,2026-03-10,2026-03-14,High Plains Corp,Garden City,KS,Mark Alderman,Power Transmission,Gates PowerGrip GT3 Belt Kit,5762,8.9,5249,24.130000000000003,,1,4,Lost,No response
+Q-2026-1210,2026-03-10,,Westar Energy,Topeka,KS,Lisa Cheng,MRO/Mixed,"Pump rebuild kit — seals, bearings, couplings",8624,3.0,8365,32.5,,1,,Pending,
+Q-2026-1211,2026-03-12,2026-03-21,River City Steel,Kansas City,MO,Lisa Cheng,Bearings,SKF 22218 E Spherical Roller (qty 36),3253,2.5,3172,20.0,,1,9,Won,
+Q-2026-1212,2026-03-12,2026-03-23,FlexPak Solutions,Topeka,KS,Jake Finley,Bearings,SKF 22218 E Spherical Roller (qty 10),22574,0.2,22529,27.0,,1,11,Lost,Went with incumbent
+Q-2026-1213,2026-03-12,2026-03-24,Midwest Fabricators,Olathe,KS,Lisa Cheng,Power Transmission,Rexnord Omega E40 Coupling,4058,3.6,3912,25.1,,0,12,Won,
+Q-2026-1214,2026-03-12,,Central Iowa Machining,Des Moines,IA,Tyler Novak,Bearings,SKF 7210 BECBP Angular Contact (qty 10),20471,4.3,19591,20.9,,3,,Pending,
+Q-2026-1215,2026-03-13,2026-03-20,Hawkeye Industrial,Cedar Rapids,IA,Jake Finley,Motors & Drives,WEG 00718ET3E213T 7.5HP Motor,1943,0,1943,18.4,,1,7,Won,
+Q-2026-1216,2026-03-13,2026-03-26,Foley Equipment,Topeka,KS,Mark Alderman,Power Transmission,Gates PowerGrip GT3 Belt Kit,1735,10.7,1549,27.39,,1,13,Lost,Price
+Q-2026-1217,2026-03-14,2026-04-14,Prairie Ag Equipment,Salina,KS,Lisa Cheng,Seals & Gaskets,John Crane Type 1 Seal Kit,45552,7.0,42363,37.1,,2,31,Lost,Price
+Q-2026-1218,2026-03-14,2026-03-24,Salina Vortex,Salina,KS,Tyler Novak,Seals & Gaskets,Garlock Style 9850 Gasket Set (qty 8),11217,7.3,10398,37.8,,2,10,Lost,Went with incumbent
+Q-2026-1219,2026-03-15,2026-03-27,High Plains Corp,Garden City,KS,Mark Alderman,Linear Motion,THK HSR20 Linear Guide Set (qty 20),11729,8.6,10720,25,Motion Industries,5,12,Lost,Went with incumbent
+Q-2026-1220,2026-03-15,2026-03-22,Missouri Valley Fab,Independence,MO,Lisa Cheng,Bearings,NTN UCF210-200D1 Flange Unit (qty 20),2416,3.1,2341,26.8,,1,7,Won,
